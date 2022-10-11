@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+}
+
+
+.body {
+    max-width: 860px;
+    background-color: #eee;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    word-break: break-word;
+}
+
+.element {
+    background-color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 15px;
+    word-break: break-word;
+}
+
+.element__header {
+    margin-top: 0px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(196, 195, 195);
+}
