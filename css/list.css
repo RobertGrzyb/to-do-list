@@ -4,6 +4,12 @@
     padding: 0;
 }
 
+@media screen and (max-width: 449px) {
+    .form {
+      grid-template-columns: 1fr;
+    }
+}
+
 .list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
