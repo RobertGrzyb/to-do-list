@@ -7,7 +7,7 @@
 .list__item {
     display: grid;
     grid-template-columns: auto 1fr auto;
-    border-bottom: 2px solid #eee;
+    border-bottom: 1px solid rgb(196, 195, 195);
     grid-gap: 10px;
     align-items: center;
 }
@@ -17,25 +17,21 @@
 }
 
 .list__button {
-    width: 30px;
+    width: 27px;
     height: 30px;
     background-color: white;
     border: none;
-    padding: 0;
     margin: 10px;
     cursor: pointer;
 }
 
 .list__button--done {
+    color: white;
     background-color: green;
 }
 
 .list__button--done:hover {
-    background-color: hsl(120, 100%, 35%);
-}
-
-.list__button--done:active {
-    background-color: hsl(120, 100%, 45%);
+    background-color: hsla(125, 97%, 44%, 0.871);
 }
 
 .list__button--delete {
@@ -43,9 +39,5 @@
 }
 
 .list__button--delete:hover {
-    background-color: hsl(0, 100%, 60%);
-}
-
-.list__button--delete:active {
-    background-color: hsl(0, 100%, 70%);
+    background-color: rgb(254, 109, 133);
 }
