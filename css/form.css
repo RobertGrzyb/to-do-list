@@ -1,0 +1,22 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 15px;
+}
+
+@media screen and (max-width: 449px) {
+    .form {
+      grid-template-columns: 1fr;
+    }
+}
+
+.form__input {
+    padding: 5px;
+}
+
+.form__button {
+    background-color: teal;
+    color: white;
+    height: 40px;
+    border: none;
+}
