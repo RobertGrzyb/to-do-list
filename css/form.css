@@ -19,4 +19,10 @@
     color: white;
     height: 40px;
     border: none;
+    transition: 1s;
+}
+
+.form__button:hover {
+    background-color: rgb(3, 180, 180);
+    transform: rotate(60deg);
 }
